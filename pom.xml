@@ -176,6 +176,10 @@
 							<goal>update-file-header</goal>
 						</goals>
 						<phase>process-sources</phase>
+						<configuration>
+							<!-- set this to get an up-to-date year in your copyright -->
+							<canUpdateCopyright>true</canUpdateCopyright>
+						</configuration>
 					</execution>
 				</executions>
 			</plugin>
