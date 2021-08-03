@@ -40,7 +40,7 @@
     <module name="MethodName">
       <property name="id" value="MethodName"/>
       <property name="format" value="^[a-zA-Z_][a-zA-Z0-9_]*$"/>
-      <message key="name.invalidPattern" value="'{0}'' entspricht nicht dem Muster ''{1}''."/>
+      <message key="name.invalidPattern" value="'{0}'' does not match the pattern ''{1}''."/>
     </module>
     <module name="PackageName">
       <property name="id" value="PackageName"/>
@@ -125,7 +125,7 @@
       <property name="id" value="RightCurly"/>
       <property name="option" value="alone"/>
       <property name="tokens" value="LITERAL_TRY,LITERAL_CATCH,LITERAL_FINALLY,LITERAL_IF,LITERAL_ELSE,CLASS_DEF,METHOD_DEF,CTOR_DEF,LITERAL_FOR,LITERAL_WHILE,LITERAL_DO,STATIC_INIT,INSTANCE_INIT"/>
-      <message key="line.same" value="''{0}'' in Spalte {1} sollte auf der gleichen Linie wie der nächste Teil einer Multi-Block-Anweisung (eine, die direkt mehrere Blöcke enthält: if/else-if/else oder try/catch/finally) sein."/>
+      <message key="line.same" value="''{0}'' in column {1} should be on the same line as the next part of a multi-block-statement (one, that consists of mulitipe blocks: if/else-if/else or try/catch/finally)"/>
     </module>
     <module name="EmptyStatement">
       <property name="id" value="EmptyStatement"/>
@@ -137,7 +137,7 @@
       <property name="id" value="MagicNumber"/>
     </module>
     <module name="MissingSwitchDefault">
-      <message key="missing.switch.default" value="MissingSwitchDefault: switch ohne &quot;default&quot;."/>
+      <message key="missing.switch.default" value="MissingSwitchDefault: without &quot;default&quot; case."/>
     </module>
     <module name="SimplifyBooleanExpression">
       <property name="id" value="SimplifyBooleanExpression"/>
