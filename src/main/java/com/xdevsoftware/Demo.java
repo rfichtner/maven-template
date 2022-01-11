@@ -4,7 +4,7 @@ package com.xdevsoftware;
  * #%L
  * Maven Template
  * %%
- * Copyright (C) 2021 XDEV Software
+ * Copyright (C) 2021 - 2022 XDEV Software
  * %%
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
