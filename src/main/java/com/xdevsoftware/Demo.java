@@ -23,11 +23,16 @@ package com.xdevsoftware;
 
 
 
-public class Demo
+public final class Demo
 {
+	
+	private Demo() 
+	{
+		
+	}
 	
 	public static void main(final String[] args) throws Exception
 	{
-		new Thread(() -> System.out.println("Hello lambda")).start();
+		new Thread(() -> System.currentTimeMillis()).start();
 	}
 }
